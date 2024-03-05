@@ -1,0 +1,13 @@
+---
+import Main from "../layouts/Main.astro";
+import HeaderDefault from "../components/HeaderDefault.astro";
+import UserCard from "../components/UserCard.svelte";
+import AccordianDefault from "../components/AccordianDefault.svelte";
+import ButtonDefault from "../components/ButtonDefault.svelte";
+---
+<main>
+	<HeaderDefault />
+	<AccordianDefault client:load />
+	<ButtonDefault client:load />
+	<UserCard client:load />
+</main>
